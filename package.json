@@ -1,0 +1,18 @@
+{
+  "name": "node-gemini",
+  "version": "1.0.0",
+  "description": "snippet: node + selenium + gemini for visual testing",
+  "scripts": {
+    "setup-selenium": "selenium-standalone install",
+    "start-selenium": "selenium-standalone start",
+    "gemini-update": "gemini update",
+    "test": "gemini test test/"
+  },
+  "author": "Alejandro Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "gemini": "^5.0.0-alpha.8",
+    "html-reporter": "^0.7.0",
+    "selenium-standalone": "^6.9.0"
+  }
+}
