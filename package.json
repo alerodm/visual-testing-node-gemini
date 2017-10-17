@@ -6,7 +6,7 @@
     "setup-selenium": "selenium-standalone install",
     "start-selenium": "selenium-standalone start",
     "gemini-update": "gemini update",
-    "test": "gemini test test/"
+    "test": "gemini test"
   },
   "author": "Alejandro Rodriguez",
   "license": "ISC",

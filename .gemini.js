@@ -20,5 +20,10 @@ module.exports = {
         },
       }
     }
+  },
+  sets: {
+    sampleSuite: {
+      files: ['test/test.gemini.js']
+    }
   }
 };
